@@ -13,6 +13,6 @@ const middle = function(array) {
   }
   // console.log(elem);
 };
-middle([1, 2, 7 , 4, 5, 6]);
-middle([1, 2, 3, 5, 6]);
-middle([8,12, 23, 85, 76, 45]);
+
+
+module.exports = middle;
