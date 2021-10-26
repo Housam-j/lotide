@@ -5,7 +5,7 @@ const tail = function(data) {
   for (let i = 1; i < data.length; i++) {
     newarr.push(data[i]);
   }
-  console.log(newarr);
+  return (newarr);
 };
 
 module.exports = tail;
