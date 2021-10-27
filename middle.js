@@ -1,14 +1,14 @@
-const middle = function(array) {
-  let l =  array.length / 2;
+const middle = function(arr) {
+  let l =  arr.length / 2;
   let elem = [];
-  if (array.length === 1) {
+  if (arr.length === 1) {
     console.log(elem);
-  } else if (array.length %   2 !== 0) {
-    elem.push(array[Math.ceil(l) - 1 ]);
+  } else if (arr.length %   2 !== 0) {
+    elem.push(arr[Math.ceil(l) - 1 ]);
     console.log(elem);
-  } else if (array.length % 2 === 0) {
+  } else if (arr.length % 2 === 0) {
     // console.log (l);
-    elem.push((array)[l - 1],(array[l]));
+    elem.push((arr)[l - 1],(arr[l]));
     console.log(elem);
   }
   // console.log(elem);
