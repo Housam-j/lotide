@@ -11,3 +11,11 @@ const letterPositions = function(sentence) {
   return res;
 };
 console.log(letterPositions('LighthouseLabs'));
+
+const assertEqual = function(actual, expected) {
+  if (actual === expected) {
+    console.log(`Assertion Passed: ${actual} ===  ${expected}`);
+  } else {
+    console.assert(actual === expected,'Assertion failed: '+actual+' !== '+ expected)
+  }  
+};
