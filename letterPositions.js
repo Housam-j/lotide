@@ -1,13 +1,13 @@
 const letterPositions = function(sentence) {
   const res = {};
-  for (i=0 ; i< sentence.length ; i++) {
+  for (let i = 0; i < sentence.length; i++) {
     if (res[sentence[i]]) {
       res[sentence[i]].push(i);
-      console.log(res[sentence[i]])
+      console.log(res[sentence[i]]);
     } else {
-      res[sentence[i]]=[i];
+      res[sentence[i]] = [i];
     }
   }
   return res;
 };
-console.log(letterPositions('LighthouseLabs'))
+console.log(letterPositions('LighthouseLabs'));
