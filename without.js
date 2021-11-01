@@ -1,5 +1,5 @@
 const without = function (input , no) {
-  var res =[];
+  let res =[];
   for (let i=0 ; i < input.length ; i++) {
     if (input[i] !== no){
       res.push(input[i]);
@@ -8,4 +8,4 @@ const without = function (input , no) {
   return res;
 };
 
-console.log(without('Lighthouse', 'g'))
+console.log(without('Lighthouse', 'g'));
