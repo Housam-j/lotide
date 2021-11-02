@@ -6,15 +6,6 @@ const findKey = function(obj , callback) {
   }
   return undefined;
 };
-console.log(
-  findKey({
-    "Blue Hill": { stars: 1 },
-    "Akaleri":   { stars: 3 },
-    "noma":      { stars: 2 },
-    "elBulli":   { stars: 3 },
-    "Ora":       { stars: 2 },
-    "Akelarre":  { stars: 3 }
-  },  x => x.stars === 3)); // => "noma"
 
 
 const assertEqual = function(actual, expected) {
@@ -24,3 +15,4 @@ const assertEqual = function(actual, expected) {
     console.assert(actual === expected,'Assertion failed: ' + actual + ' !== ' + expected);
   }
 };
+module.exports = findKey;

@@ -11,7 +11,4 @@ const eqObjects = function(object1, object2) {
     assertEqual(object1[item], object2[item]);
   }
 };
-
-const ab = { a: "1", b: "2" };
-const ba = { b: "2", a: "5" };
-eqObjects(ab, ba);
+module.exports = eqObjects

@@ -30,3 +30,4 @@ const assertObjectsEqual= function (obj1, obj2) {
   }
   console.log('✅✅✅' , `Assertion Passed: ${obj1} ===  ${obj2}`);
 }
+module.exports =eqObjects;

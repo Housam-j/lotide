@@ -19,3 +19,4 @@ const assertEqual = function(actual, expected) {
     console.assert(actual === expected,'Assertion failed: ' + actual + ' !== ' + expected);
   }
 };
+module.exports = countLetters;
