@@ -1,0 +1,22 @@
+{
+  "name": "@housam/lotide",
+  "version": "1.0.0",
+  "description": "library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Housam-j/lotide.git"
+  },
+  "author": "Housam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Housam-j/lotide/issues"
+  },
+  "homepage": "https://github.com/Housam-j/lotide#readme"
+}
